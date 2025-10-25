@@ -23,18 +23,33 @@ img{
     border-radius: 50%;
 }
 
-.contact{
+.main{
     justify-self: center;
     margin-top: 20px;
       background-color: bisque;
       padding: 4px 40px;
       border-radius: 15px;
+      text-transform: uppercase;
 }
 .the_contactes{
    margin-top: 10px;
 }
-p ,a {
+.the_contactes p ,a {
     color: white;
     line-height: 30px;
     margin-left:20px ;
+}
+.Education p{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 1px;
+}
+section{
+   color: white; 
+   color: rgb(179, 170, 170);
+}
+.Education{
+line-height: 40px;
 }
