@@ -7,12 +7,14 @@
     width: 50%;
     height: auto;
     justify-self: center;
-    background-color: aqua;
+    border-radius: 5px;
+   box-shadow: 2px 2px 10px  black;
+   display: flex;
 
 }
 .menu{
     height: 100%;
-    width: 40%;
+   
     background-color: rgb(61, 61, 138);
 }
 
@@ -66,4 +68,26 @@ line-height: 40px;
 .skills_tecnique p{
     color: white;
      margin-left: 5px;
+}
+.content{
+    width: 100%;
+}
+.head{
+   display: flex;
+     gap: 12px;
+     align-items: center;  
+    
+ /* 
+         
+ 
+  font-weight: 600;
+  color: #222;
+  margin: 24px 0;*/
+}
+.head::after {
+  content: "";
+  flex: 1;             
+  height: 1px;  
+      
+  background: #cfcfcf; 
 }
