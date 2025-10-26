@@ -76,18 +76,44 @@ line-height: 40px;
    display: flex;
      gap: 12px;
      align-items: center;  
+     color: rgb(53, 53, 126);
+     text-transform: uppercase;
     
- /* 
-         
- 
-  font-weight: 600;
-  color: #222;
-  margin: 24px 0;*/
+}
+.content .head .paragraph p{
+  font-size: 30px;
+  
 }
 .head::after {
   content: "";
   flex: 1;             
   height: 1px;  
-      
   background: #cfcfcf; 
 }
+.content p{
+    font-size: 20px;
+    margin-left: 5px;
+    line-height: 25px;
+}
+.project h2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+     color: rgb(53, 53, 126);
+     text-transform: uppercase;
+}
+.project h2::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #bbb;
+
+}
+.project ul{
+   line-height: 25px;
+}
+
+.project ul li {
+    margin-left: 20px;
+}
+
