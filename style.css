@@ -5,7 +5,7 @@
 }
 .All{
     width: 50%;
-    height: 101vh;
+    height: auto;
     justify-self: center;
     background-color: aqua;
 
@@ -52,4 +52,18 @@ section{
 }
 .Education{
 line-height: 40px;
+}
+
+.technique{
+   margin-top: 10px;
+   text-transform: uppercase;
+   color: rgb(223, 223, 108);
+   margin-left: 5px;
+}
+.skills_tecnique{
+    line-height: 30px;
+}
+.skills_tecnique p{
+    color: white;
+     margin-left: 5px;
 }
