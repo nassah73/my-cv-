@@ -132,4 +132,22 @@ line-height: 40px;
    background: #cfcfcf;
    height: 2px;
 }
+.experience   li{
+    margin-left: 20px;
+    padding: 5px 0;
+}
+.formation h1{
+     display: flex;
+    font-size: 25px;
+    color: rgb(53, 53, 126); 
+   
+}
+.formation h1::after{
+    content: "";
+    flex: 1;
+    background: #cfcfcf;
+    height: 2px;
+    align-self: center;
+    margin-top: 6px;
+}
 
