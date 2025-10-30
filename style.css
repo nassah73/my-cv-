@@ -117,3 +117,19 @@ line-height: 40px;
     margin-left: 20px;
 }
 
+.Experience{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+     
+    color: rgb(53, 53, 126); 
+
+}
+.Experience::after{
+   content: "";
+   flex: 1;
+   margin-top: 10px;
+   background: #cfcfcf;
+   height: 2px;
+}
+
