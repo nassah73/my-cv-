@@ -154,4 +154,19 @@ line-height: 40px;
     font-size: 18px;
     line-height: 25px;
 }
+.objective{
+    font-size: 28px;
+   color: rgb(53, 53, 126);
+   display: flex;
+    gap: 12px;
+}
+.objective::after{
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: #cfcfcf;
+    align-self: center;
+    margin-top: 5px;
+   
+}
 
